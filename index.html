@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV — Maria Florencia Maidana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #fafafa;
+      color: #333;
+    }
+    h1 {
+      margin-bottom: 0.5em;
+    }
+    p {
+      margin-bottom: 1.5em;
+    }
+    .card {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 15px 25px;
+      background-color: #eaf4ff;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #004080;
+      transition: background 0.2s ease;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card:hover {
+      background-color: #d6eaff;
+    }
+    .secondary {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #555;
+    }
+    .secondary:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mi CV</h1>
+  <p>Hacé click en el botón para <strong>abrir</strong> el PDF en una nueva pestaña, o usá el link de <em>Descargar</em> si preferís bajarlo.</p>
+
+  <!-- Botón principal para abrir en una nueva pestaña -->
+  <a class="card" href="MariaFlorenciaMaidana_GD_CV.pdf" target="_blank">
+    ⬇️ Download full CV here
+  </a>
+
+  <!-- Link secundario para descargar directamente -->
+  <a class="secondary" href="MariaFlorenciaMaidana_GD_CV.pdf" download>Descargar</a>
+</body>
+</html>
